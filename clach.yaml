@@ -1,18 +1,44 @@
-####################################
-# 创建者：v2rayse.com
-# 客户端：{@client}
-# 创建时间：{@date}
-# 使用模版：{@template}
-# 节点数量：{@count}
-# 节点类型：{@type}
-####################################
 port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
-proxies: []
+proxies:
+  - {name: 🇺🇦 乌克兰1 | ⬇️ 3.2MB/s|51%|Openai, server: shenzhou02.mysynology.net, port: 38400, type: vless, uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY}, servername: www.yahoo.com, client-fingerprint: chrome, network: tcp}
+  - {name: 🇳🇱 荷兰1 | ⬇️ 3.2MB/s|Openai, server: agaungzhou01.bumbleshrimp.com, port: 50997, type: vless, uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY}, servername: www.amazon.com, client-fingerprint: chrome, network: tcp}
+  - {name: 🇺🇸 美国1 | ⬇️ 4.0MB/s|46%|Netflix|Openai, server: 108.181.3.68, port: 19873, type: vless, uuid: 288eab91-a2a9-4099-bcfd-ae057ec0d56e, tls: true, alpn: [h3], tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw, short-id: "694212ed" }, servername: www.yahoo.com, client-fingerprint: chrome, network: tcp}
+  - {name: 🇫🇷 法国1 | ⬇️ 3.3MB/s|0%|Openai, server: tgju.org, port: 8080, type: vless, uuid: 3537fb00-c636-4b6f-bcf8-1bfc61d57325, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: s2.qdBoK2Dq05.zulAir.ORG.}}}
+  - {name: 🇭🇰 香港1 | ⬇️ 6.0MB/s|Openai|Gemini, server: zhee01.dynu.net, port: 25135, type: vless, uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY}, servername: www.nvidia.com, client-fingerprint: chrome, network: tcp}
+  - {name: 🇩🇪 德国1 | ⬇️ 4.6MB/s|26%|Openai, server: 188.245.43.225, port: 50921, type: vless, uuid: dcc59828-342a-4e90-9b13-4dc7fe9c04b8, tls: false, tfo: false, skip-cert-verify: true, network: tcp}
+  - {name: 🇺🇸 美国2 | ⬇️ 4.0MB/s|41%|Netflix, server: b9a88fb8-suk9s0-t7qex7-1supq.hy2.gotochinatown.net, port: 8443, type: hysteria2, password: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b, auth: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b, sni: b9a88fb8-suk9s0-t7qex7-1supq.hy2.gotochinatown.net, skip-cert-verify: true}
+  - {name: 🇩🇪 德国2 | ⬇️ 6.0MB/s|26%|Openai, server: 172.67.204.84, port: 80, type: vless, uuid: 0e6b413b-e25c-40eb-b7e7-423f019bf972, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN?ed=2048", headers: {Host: www.speedtest.net.q.mtm.mdffood.ir}}}
+  - {name: 🇺🇦 乌克兰2 | ⬇️ 3.6MB/s, server: www.speedtest.net, port: 80, type: vless, uuid: 987a5456-3254-4ea2-8404-ceff7c1dad69, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048", headers: {Host: www.speedtest.net.lightning6.ip-ddns.com.}}}
+  - {name: 🇨🇭 瑞士1 | ⬇️ 4.7MB/s|29%|Disney, server: yapc-1.afshin.ir, port: 443, type: vless, uuid: 7c317161-5cf8-4cbc-811a-d1297c41bb23, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: yapc-1.afshin.ir, client-fingerprint: chrome, network: tcp}
+  - {name: 🇩🇪 德国3 | ⬇️ 3.6MB/s|Openai, server: 172.67.189.227, port: 443, type: vless, uuid: be88b352-bc2e-45bf-abeb-cc117cf6f884, tls: true, tfo: false, skip-cert-verify: true, servername: cdn.packageclub.net, client-fingerprint: edge, network: ws, ws-opts: {path: /ws-connect/download/update/check/version/2.1.9/patch/force, headers: {Host: cdn.packageclub.net}}}
+  - {name: 🇯🇵 日本1 | ⬇️ 3.2MB/s|0%|Disney|Openai, server: 104.21.58.212, port: 80, type: vless, uuid: 5a4e040a-8de6-4222-bd6f-9f535b8772fd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/lrJO6NEVRGHecfbo?ed=2560", headers: {Host: calm-violet-0e47.pomofoc222.workers.dev}}}
+  - {name: 🇺🇸 美国3 | ⬇️ 4.1MB/s|41%|Netflix, server: 4e4babe3-suk9s0-t234dm-eso8.hy2.gotochinatown.net, port: 8443, type: hysteria2, password: 3c461e2c-9d13-11ef-8563-f23c913c8d2b, auth: 3c461e2c-9d13-11ef-8563-f23c913c8d2b, sni: 4e4babe3-suk9s0-t234dm-eso8.hy2.gotochinatown.net, skip-cert-verify: true}
+  - {name: 🇯🇵 日本2 | ⬇️ 5.4MB/s|28%|Openai, server: shenzhou02.mysynology.net, port: 35659, type: vless, uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY}, servername: gateway.icloud.com, client-fingerprint: chrome, network: tcp}
+  - {name: 🇺🇸 美国4 | ⬇️ 4.6MB/s|29%|Disney|Openai, server: 164.152.19.229, port: 30158, type: vless, uuid: b72ba5d5-2d5e-45b7-93b5-236d343baa7c, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: n7Ptb-3f4pw0D-hG-UP8Dp5Gf8J8Uxn029JMwdTyEFc, short-id: "ee9e2505" }, servername: www.yahoo.com, client-fingerprint: chrome, network: tcp}
+  - {name: 🇩🇪 德国5 | ⬇️ 3.8MB/s|100%|Openai, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 🇯🇵 日本3 | ⬇️ 6.2MB/s|58%|Openai, server: csuzhou01.1cooldns.com, port: 14548, type: vless, uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY}, servername: www.nvidia.com, client-fingerprint: chrome, network: tcp}
+  - {name: 🇫🇷 法国2 | ⬇️ 6.4MB/s|14%, server: 51.158.205.126, port: 24957, type: vless, uuid: ef1fdecb-e56f-4996-9b6a-da7ddb7f7c8d, tls: true, alpn: [h3], tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: Ok7Mg4VmHT4Typ9HydPSmHI55BgLONFk5ppLGiL8n1A, short-id: "4b4d9d72" }, servername: www.yahoo.com, client-fingerprint: chrome, network: tcp}
+  - {name: 🇺🇸 美国5 | ⬇️ 3.4MB/s|31%|Netflix|Openai, server: 192.3.130.103, port: 443, type: vless, uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e, tls: true, alpn: [h2], tfo: false, skip-cert-verify: true, servername: us10-03zl.huangshang.filegear-sg.me, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: HlAPZV9g9xmyAVVV002zYFTmiIeg}}
+  - {name: 🇩🇪 德国6 | ⬇️ 3.7MB/s|25%|Openai, server: 104.21.69.44, port: 2053, type: vless, uuid: 78905d87-0266-4825-868d-3069e88d1201, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: true, servername: all22.kikforwindows.com, client-fingerprint: chrome, network: ws, ws-opts: {path: /containers/de, headers: {Host: all22.kikforwindows.com}}}
+  - {name: 🇨🇭 瑞士2 | ⬇️ 3.1MB/s|29%|Disney|Openai, server: 152.67.68.116, port: 443, type: vless, uuid: 7c317161-5cf8-4cbc-811a-d1297c41bb23, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: yapc-1.afshin.ir, client-fingerprint: chrome, network: tcp}
+  - {name: 其他1-TR | ⬇️ 4.0MB/s|0%|Disney|Openai, server: tr.vixsm.ir, port: 35111, type: vless, uuid: f5da3cc4-c81c-418e-a836-fbb53b841caa, tls: false, tfo: false, skip-cert-verify: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: xyz}}
+  - {name: 🇨🇭 瑞士3 | ⬇️ 4.0MB/s|29%|Openai, server: 152.67.68.116, port: 443, type: vless, uuid: 7c317161-5cf8-4cbc-811a-d1297c41bb23, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: YAPC-1.afshin.ir, client-fingerprint: chrome, network: tcp}
+  - {name: 🇷🇺 俄罗斯1 | ⬇️ 3.4MB/s|100%, server: 46.17.41.5, port: 12904, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港2 | ⬇️ 3.9MB/s|0%|Netflix|Disney|Openai, server: 31.22.116.154, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, tfo: false, skip-cert-verify: true, servername: redfree8.pooriashop.ir, network: ws, ws-opts: {path: "/---TM-@AZARBAYJAB1-------TM-@AZARBAYJAB1---------TM-@AZARBAYJAB1---join?ed=2560", headers: {Host: redfree8.pooriashop.ir}}}
+  - {name: 🇬🇧 英国1 | ⬇️ 6.3MB/s|50%|Openai, server: shenzhou02.mysynology.net, port: 35311, type: vless, uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY}, servername: www.yahoo.com, client-fingerprint: chrome, network: tcp}
+  - {name: 🇺🇸 美国6 | ⬇️ 3.0MB/s|41%|Netflix, server: 0e1462f1-sum4g0-t8ro7t-1ey07.hy2.gotochinatown.net, port: 8443, type: hysteria2, password: 203d1d64-3313-11ed-bb74-f23c9164ca5d, auth: 203d1d64-3313-11ed-bb74-f23c9164ca5d, sni: 0e1462f1-sum4g0-t8ro7t-1ey07.hy2.gotochinatown.net, skip-cert-verify: true}
+  - {name: 🇯🇵 日本4 | ⬇️ 5.0MB/s|0%|Netflix|Disney|Openai, server: 45.131.5.244, port: 2086, type: vless, uuid: f366e744-abcd-4b5b-bd5e-2bd97b6443bf, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560", headers: {Host: fva64rbmjfkfznnptk6imz6sihrno35m4csom83admge5tfxniwduyuyt954fdh.ks3om.workers.Dev}}}
+  - {name: 🇫🇮 芬兰1 | ⬇️ 3.5MB/s|26%|Openai, server: 172.67.73.163, port: 2087, type: vless, uuid: 36fafc67-3691-4632-b8d0-0029802c9f6f, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: true, servername: crm.gamingbazirani.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban, headers: {Host: crm.gamingbazirani.ir}}}
+  - {name: 🇩🇪 德国7 | ⬇️ 4.8MB/s|10%|Openai, server: www.speedtest.net, port: 8880, type: vless, uuid: 41aa7ec7-e228-4af3-a149-c2fd172a8cc9, tls: false, tfo: false, skip-cert-verify: true, servername: vihypercloud.academigroup.ir., network: ws, ws-opts: {path: "/Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed=2048", headers: {Host: vihypercloud.academigroup.ir.}}}
+  - {name: 🇺🇦 乌克兰3 | ⬇️ 4.8MB/s|51%|Openai, server: shenzhou02.mysynology.net, port: 33048, type: vless, uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY}, servername: www.yahoo.com, client-fingerprint: chrome, network: tcp}
+  - {name: 🇨🇳 台湾1 | ⬇️ 3.4MB/s|0%|Gemini, server: 221.144.200.91, port: 12527, type: vless, uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2, tls: true, tfo: false, skip-cert-verify: true, servername: edccy.ambercc.filegear-sg.me, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&proxyip=ts.hpc.tw", headers: {Host: edccy.ambercc.filegear-sg.me}}}
+  - {name: 🇨🇳 台湾2 | ⬇️ 3.8MB/s|19%|Openai|Gemini, server: zhee01.dynu.net, port: 13263, type: vless, uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY}, servername: gateway.icloud.com, client-fingerprint: chrome, network: tcp}
+  - {name: 🇲🇾 其他2-MY | ⬇️ 5.8MB/s|0%|Youtube|Gemini, server: csuzhou01.1cooldns.com, port: 23301, type: vless, uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY}, servername: www.nvidia.com, client-fingerprint: chrome, network: tcp}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -30,44 +56,161 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇬🇧 英国节点
+      - 🇺🇦 乌克兰1 | ⬇️ 3.2MB/s|51%|Openai
+      - 🇳🇱 荷兰1 | ⬇️ 3.2MB/s|Openai
+      - 🇺🇸 美国1 | ⬇️ 4.0MB/s|46%|Netflix|Openai
+      - 🇫🇷 法国1 | ⬇️ 3.3MB/s|0%|Openai
+      - 🇭🇰 香港1 | ⬇️ 6.0MB/s|Openai|Gemini
+      - 🇩🇪 德国1 | ⬇️ 4.6MB/s|26%|Openai
+      - 🇺🇸 美国2 | ⬇️ 4.0MB/s|41%|Netflix
+      - 🇩🇪 德国2 | ⬇️ 6.0MB/s|26%|Openai
+      - 🇺🇦 乌克兰2 | ⬇️ 3.6MB/s
+      - 🇨🇭 瑞士1 | ⬇️ 4.7MB/s|29%|Disney
+      - 🇩🇪 德国3 | ⬇️ 3.6MB/s|Openai
+      - 🇯🇵 日本1 | ⬇️ 3.2MB/s|0%|Disney|Openai
+      - 🇺🇸 美国3 | ⬇️ 4.1MB/s|41%|Netflix
+      - 🇯🇵 日本2 | ⬇️ 5.4MB/s|28%|Openai
+      - 🇺🇸 美国4 | ⬇️ 4.6MB/s|29%|Disney|Openai
+      - 🇩🇪 德国5 | ⬇️ 3.8MB/s|100%|Openai
+      - 🇯🇵 日本3 | ⬇️ 6.2MB/s|58%|Openai
+      - 🇫🇷 法国2 | ⬇️ 6.4MB/s|14%
+      - 🇺🇸 美国5 | ⬇️ 3.4MB/s|31%|Netflix|Openai
+      - 🇩🇪 德国6 | ⬇️ 3.7MB/s|25%|Openai
+      - 🇨🇭 瑞士2 | ⬇️ 3.1MB/s|29%|Disney|Openai
+      - 其他1-TR | ⬇️ 4.0MB/s|0%|Disney|Openai
+      - 🇨🇭 瑞士3 | ⬇️ 4.0MB/s|29%|Openai
+      - 🇷🇺 俄罗斯1 | ⬇️ 3.4MB/s|100%
+      - 🇭🇰 香港2 | ⬇️ 3.9MB/s|0%|Netflix|Disney|Openai
+      - 🇬🇧 英国1 | ⬇️ 6.3MB/s|50%|Openai
+      - 🇺🇸 美国6 | ⬇️ 3.0MB/s|41%|Netflix
+      - 🇯🇵 日本4 | ⬇️ 5.0MB/s|0%|Netflix|Disney|Openai
+      - 🇫🇮 芬兰1 | ⬇️ 3.5MB/s|26%|Openai
+      - 🇩🇪 德国7 | ⬇️ 4.8MB/s|10%|Openai
+      - 🇺🇦 乌克兰3 | ⬇️ 4.8MB/s|51%|Openai
+      - 🇨🇳 台湾1 | ⬇️ 3.4MB/s|0%|Gemini
+      - 🇨🇳 台湾2 | ⬇️ 3.8MB/s|19%|Openai|Gemini
+      - 🇲🇾 其他2-MY | ⬇️ 5.8MB/s|0%|Youtube|Gemini
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - .*
+      - 🇺🇦 乌克兰1 | ⬇️ 3.2MB/s|51%|Openai
+      - 🇳🇱 荷兰1 | ⬇️ 3.2MB/s|Openai
+      - 🇺🇸 美国1 | ⬇️ 4.0MB/s|46%|Netflix|Openai
+      - 🇫🇷 法国1 | ⬇️ 3.3MB/s|0%|Openai
+      - 🇭🇰 香港1 | ⬇️ 6.0MB/s|Openai|Gemini
+      - 🇩🇪 德国1 | ⬇️ 4.6MB/s|26%|Openai
+      - 🇺🇸 美国2 | ⬇️ 4.0MB/s|41%|Netflix
+      - 🇩🇪 德国2 | ⬇️ 6.0MB/s|26%|Openai
+      - 🇺🇦 乌克兰2 | ⬇️ 3.6MB/s
+      - 🇨🇭 瑞士1 | ⬇️ 4.7MB/s|29%|Disney
+      - 🇩🇪 德国3 | ⬇️ 3.6MB/s|Openai
+      - 🇯🇵 日本1 | ⬇️ 3.2MB/s|0%|Disney|Openai
+      - 🇺🇸 美国3 | ⬇️ 4.1MB/s|41%|Netflix
+      - 🇯🇵 日本2 | ⬇️ 5.4MB/s|28%|Openai
+      - 🇺🇸 美国4 | ⬇️ 4.6MB/s|29%|Disney|Openai
+      - 🇩🇪 德国5 | ⬇️ 3.8MB/s|100%|Openai
+      - 🇯🇵 日本3 | ⬇️ 6.2MB/s|58%|Openai
+      - 🇫🇷 法国2 | ⬇️ 6.4MB/s|14%
+      - 🇺🇸 美国5 | ⬇️ 3.4MB/s|31%|Netflix|Openai
+      - 🇩🇪 德国6 | ⬇️ 3.7MB/s|25%|Openai
+      - 🇨🇭 瑞士2 | ⬇️ 3.1MB/s|29%|Disney|Openai
+      - 其他1-TR | ⬇️ 4.0MB/s|0%|Disney|Openai
+      - 🇨🇭 瑞士3 | ⬇️ 4.0MB/s|29%|Openai
+      - 🇷🇺 俄罗斯1 | ⬇️ 3.4MB/s|100%
+      - 🇭🇰 香港2 | ⬇️ 3.9MB/s|0%|Netflix|Disney|Openai
+      - 🇬🇧 英国1 | ⬇️ 6.3MB/s|50%|Openai
+      - 🇺🇸 美国6 | ⬇️ 3.0MB/s|41%|Netflix
+      - 🇯🇵 日本4 | ⬇️ 5.0MB/s|0%|Netflix|Disney|Openai
+      - 🇫🇮 芬兰1 | ⬇️ 3.5MB/s|26%|Openai
+      - 🇩🇪 德国7 | ⬇️ 4.8MB/s|10%|Openai
+      - 🇺🇦 乌克兰3 | ⬇️ 4.8MB/s|51%|Openai
+      - 🇨🇳 台湾1 | ⬇️ 3.4MB/s|0%|Gemini
+      - 🇨🇳 台湾2 | ⬇️ 3.8MB/s|19%|Openai|Gemini
+      - 🇲🇾 其他2-MY | ⬇️ 5.8MB/s|0%|Youtube|Gemini
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇬🇧 英国节点
+      - 🇺🇦 乌克兰1 | ⬇️ 3.2MB/s|51%|Openai
+      - 🇳🇱 荷兰1 | ⬇️ 3.2MB/s|Openai
+      - 🇺🇸 美国1 | ⬇️ 4.0MB/s|46%|Netflix|Openai
+      - 🇫🇷 法国1 | ⬇️ 3.3MB/s|0%|Openai
+      - 🇭🇰 香港1 | ⬇️ 6.0MB/s|Openai|Gemini
+      - 🇩🇪 德国1 | ⬇️ 4.6MB/s|26%|Openai
+      - 🇺🇸 美国2 | ⬇️ 4.0MB/s|41%|Netflix
+      - 🇩🇪 德国2 | ⬇️ 6.0MB/s|26%|Openai
+      - 🇺🇦 乌克兰2 | ⬇️ 3.6MB/s
+      - 🇨🇭 瑞士1 | ⬇️ 4.7MB/s|29%|Disney
+      - 🇩🇪 德国3 | ⬇️ 3.6MB/s|Openai
+      - 🇯🇵 日本1 | ⬇️ 3.2MB/s|0%|Disney|Openai
+      - 🇺🇸 美国3 | ⬇️ 4.1MB/s|41%|Netflix
+      - 🇯🇵 日本2 | ⬇️ 5.4MB/s|28%|Openai
+      - 🇺🇸 美国4 | ⬇️ 4.6MB/s|29%|Disney|Openai
+      - 🇩🇪 德国5 | ⬇️ 3.8MB/s|100%|Openai
+      - 🇯🇵 日本3 | ⬇️ 6.2MB/s|58%|Openai
+      - 🇫🇷 法国2 | ⬇️ 6.4MB/s|14%
+      - 🇺🇸 美国5 | ⬇️ 3.4MB/s|31%|Netflix|Openai
+      - 🇩🇪 德国6 | ⬇️ 3.7MB/s|25%|Openai
+      - 🇨🇭 瑞士2 | ⬇️ 3.1MB/s|29%|Disney|Openai
+      - 其他1-TR | ⬇️ 4.0MB/s|0%|Disney|Openai
+      - 🇨🇭 瑞士3 | ⬇️ 4.0MB/s|29%|Openai
+      - 🇷🇺 俄罗斯1 | ⬇️ 3.4MB/s|100%
+      - 🇭🇰 香港2 | ⬇️ 3.9MB/s|0%|Netflix|Disney|Openai
+      - 🇬🇧 英国1 | ⬇️ 6.3MB/s|50%|Openai
+      - 🇺🇸 美国6 | ⬇️ 3.0MB/s|41%|Netflix
+      - 🇯🇵 日本4 | ⬇️ 5.0MB/s|0%|Netflix|Disney|Openai
+      - 🇫🇮 芬兰1 | ⬇️ 3.5MB/s|26%|Openai
+      - 🇩🇪 德国7 | ⬇️ 4.8MB/s|10%|Openai
+      - 🇺🇦 乌克兰3 | ⬇️ 4.8MB/s|51%|Openai
+      - 🇨🇳 台湾1 | ⬇️ 3.4MB/s|0%|Gemini
+      - 🇨🇳 台湾2 | ⬇️ 3.8MB/s|19%|Openai|Gemini
+      - 🇲🇾 其他2-MY | ⬇️ 5.8MB/s|0%|Youtube|Gemini
   - name: 🔮 负载均衡
     type: load-balance
+    strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇬🇧 英国节点
-    strategy: consistent-hashing
+      - 🇺🇦 乌克兰1 | ⬇️ 3.2MB/s|51%|Openai
+      - 🇳🇱 荷兰1 | ⬇️ 3.2MB/s|Openai
+      - 🇺🇸 美国1 | ⬇️ 4.0MB/s|46%|Netflix|Openai
+      - 🇫🇷 法国1 | ⬇️ 3.3MB/s|0%|Openai
+      - 🇭🇰 香港1 | ⬇️ 6.0MB/s|Openai|Gemini
+      - 🇩🇪 德国1 | ⬇️ 4.6MB/s|26%|Openai
+      - 🇺🇸 美国2 | ⬇️ 4.0MB/s|41%|Netflix
+      - 🇩🇪 德国2 | ⬇️ 6.0MB/s|26%|Openai
+      - 🇺🇦 乌克兰2 | ⬇️ 3.6MB/s
+      - 🇨🇭 瑞士1 | ⬇️ 4.7MB/s|29%|Disney
+      - 🇩🇪 德国3 | ⬇️ 3.6MB/s|Openai
+      - 🇯🇵 日本1 | ⬇️ 3.2MB/s|0%|Disney|Openai
+      - 🇺🇸 美国3 | ⬇️ 4.1MB/s|41%|Netflix
+      - 🇯🇵 日本2 | ⬇️ 5.4MB/s|28%|Openai
+      - 🇺🇸 美国4 | ⬇️ 4.6MB/s|29%|Disney|Openai
+      - 🇩🇪 德国5 | ⬇️ 3.8MB/s|100%|Openai
+      - 🇯🇵 日本3 | ⬇️ 6.2MB/s|58%|Openai
+      - 🇫🇷 法国2 | ⬇️ 6.4MB/s|14%
+      - 🇺🇸 美国5 | ⬇️ 3.4MB/s|31%|Netflix|Openai
+      - 🇩🇪 德国6 | ⬇️ 3.7MB/s|25%|Openai
+      - 🇨🇭 瑞士2 | ⬇️ 3.1MB/s|29%|Disney|Openai
+      - 其他1-TR | ⬇️ 4.0MB/s|0%|Disney|Openai
+      - 🇨🇭 瑞士3 | ⬇️ 4.0MB/s|29%|Openai
+      - 🇷🇺 俄罗斯1 | ⬇️ 3.4MB/s|100%
+      - 🇭🇰 香港2 | ⬇️ 3.9MB/s|0%|Netflix|Disney|Openai
+      - 🇬🇧 英国1 | ⬇️ 6.3MB/s|50%|Openai
+      - 🇺🇸 美国6 | ⬇️ 3.0MB/s|41%|Netflix
+      - 🇯🇵 日本4 | ⬇️ 5.0MB/s|0%|Netflix|Disney|Openai
+      - 🇫🇮 芬兰1 | ⬇️ 3.5MB/s|26%|Openai
+      - 🇩🇪 德国7 | ⬇️ 4.8MB/s|10%|Openai
+      - 🇺🇦 乌克兰3 | ⬇️ 4.8MB/s|51%|Openai
+      - 🇨🇳 台湾1 | ⬇️ 3.4MB/s|0%|Gemini
+      - 🇨🇳 台湾2 | ⬇️ 3.8MB/s|19%|Openai|Gemini
+      - 🇲🇾 其他2-MY | ⬇️ 5.8MB/s|0%|Youtube|Gemini
   - name: 📲 电报消息
     type: select
     proxies:
@@ -265,50 +408,72 @@ proxy-groups:
       - 🚀 手动切换
   - name: 🇭🇰 香港节点
     type: load-balance
+    strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
-    proxies: []
-    strategy: consistent-hashing
+    proxies:
+      - 🇭🇰 香港1 | ⬇️ 6.0MB/s|Openai|Gemini
+      - 🇭🇰 香港2 | ⬇️ 3.9MB/s|0%|Netflix|Disney|Openai
   - name: 🇯🇵 日本节点
     type: load-balance
+    strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
-    proxies: []
-    strategy: consistent-hashing
+    proxies:
+      - 🇯🇵 日本1 | ⬇️ 3.2MB/s|0%|Disney|Openai
+      - 🇯🇵 日本2 | ⬇️ 5.4MB/s|28%|Openai
+      - 🇯🇵 日本3 | ⬇️ 6.2MB/s|58%|Openai
+      - 🇯🇵 日本4 | ⬇️ 5.0MB/s|0%|Netflix|Disney|Openai
   - name: 🇺🇲 美国节点
     type: load-balance
+    strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
-    proxies: []
-    strategy: consistent-hashing
+    proxies:
+      - 🇺🇸 美国1 | ⬇️ 4.0MB/s|46%|Netflix|Openai
+      - 🇺🇸 美国2 | ⬇️ 4.0MB/s|41%|Netflix
+      - 🇺🇸 美国3 | ⬇️ 4.1MB/s|41%|Netflix
+      - 🇺🇸 美国4 | ⬇️ 4.6MB/s|29%|Disney|Openai
+      - 🇺🇸 美国5 | ⬇️ 3.4MB/s|31%|Netflix|Openai
+      - 🇺🇸 美国6 | ⬇️ 3.0MB/s|41%|Netflix
   - name: 🇨🇳 台湾节点
     type: load-balance
+    strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
-    proxies: []
-    strategy: consistent-hashing
+    proxies:
+      - 🇨🇳 台湾1 | ⬇️ 3.4MB/s|0%|Gemini
+      - 🇨🇳 台湾2 | ⬇️ 3.8MB/s|19%|Openai|Gemini
   - name: 🇸🇬 狮城节点
     type: load-balance
+    strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
       - DIRECT
-    strategy: consistent-hashing
   - name: 🇬🇧 英国节点
     type: load-balance
+    strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
-    proxies: []
-    strategy: consistent-hashing
+    proxies:
+      - 🇬🇧 英国1 | ⬇️ 6.3MB/s|50%|Openai
   - name: 🎥 奈飞节点
     type: select
-    proxies: []
+    proxies:
+      - 🇺🇸 美国1 | ⬇️ 4.0MB/s|46%|Netflix|Openai
+      - 🇺🇸 美国2 | ⬇️ 4.0MB/s|41%|Netflix
+      - 🇺🇸 美国3 | ⬇️ 4.1MB/s|41%|Netflix
+      - 🇺🇸 美国5 | ⬇️ 3.4MB/s|31%|Netflix|Openai
+      - 🇭🇰 香港2 | ⬇️ 3.9MB/s|0%|Netflix|Disney|Openai
+      - 🇺🇸 美国6 | ⬇️ 3.0MB/s|41%|Netflix
+      - 🇯🇵 日本4 | ⬇️ 5.0MB/s|0%|Netflix|Disney|Openai
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -10241,3 +10406,4 @@ rules:
   - PROCESS-NAME,baidunetdisk.exe,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
+

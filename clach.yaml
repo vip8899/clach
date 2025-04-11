@@ -116,7 +116,7 @@ proxy-groups:
     type: select
     proxies: [DIRECT, 🚀 节点选择]
 
-    proxy-groups:
+  proxy-groups:
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -128,13 +128,6 @@ proxy-groups:
       - 🇭🇰 香港1 | ⬇️ 7.4MB/s...
       # ...（保留稳定节点，移除高延迟节点）
 
-- name: 🔮 负载均衡
-  type: load-balance
-  strategy: consistent-hashing  # 使用一致性哈希算法
-  url: http://www.gstatic.com/generate_204  # 节点测试地址
-  interval: 300  # 每5分钟测试一次
-  tolerance: 50  # 允许50ms延迟波动
-  proxies: 
-    - 🇺🇸 美国1 | ⬇️ 6.9MB/s...
-    - 🇫🇮 芬兰1 | ⬇️ 3.1MB/s...
-    # ...（所有节点均已包含） 
+rules:
+  - DOMAIN-SUFFIX,netflix.com,🔮 负载均衡
+  - DOMAIN-SUFFIX,youtube.com,🔮 负载均衡

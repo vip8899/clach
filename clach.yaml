@@ -1,3 +1,11 @@
+####################################
+# 创建者：v2rayse.com
+# 客户端：{@client}
+# 创建时间：{@date}
+# 使用模版：{@template}
+# 节点数量：{@count}
+# 节点类型：{@type}
+####################################
 port: 7890
 socks-port: 7891
 allow-lan: true
@@ -22,7 +30,12 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - .*
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇬🇧 英国节点
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -36,15 +49,25 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - .*
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇬🇧 英国节点
   - name: 🔮 负载均衡
     type: load-balance
-    strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - .*
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇬🇧 英国节点
+    strategy: consistent-hashing
   - name: 📲 电报消息
     type: select
     proxies:
@@ -242,47 +265,47 @@ proxy-groups:
       - 🚀 手动切换
   - name: 🇭🇰 香港节点
     type: load-balance
-    strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies: []
+    strategy: consistent-hashing
   - name: 🇯🇵 日本节点
     type: load-balance
-    strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies: []
+    strategy: consistent-hashing
   - name: 🇺🇲 美国节点
     type: load-balance
-    strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies: []
+    strategy: consistent-hashing
   - name: 🇨🇳 台湾节点
     type: load-balance
-    strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies: []
+    strategy: consistent-hashing
   - name: 🇸🇬 狮城节点
     type: load-balance
-    strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
       - DIRECT
+    strategy: consistent-hashing
   - name: 🇬🇧 英国节点
     type: load-balance
-    strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies: []
+    strategy: consistent-hashing
   - name: 🎥 奈飞节点
     type: select
     proxies: []
